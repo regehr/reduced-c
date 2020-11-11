@@ -16,5 +16,5 @@ path = "syntax"
 docopt = "*"
 env_logger = "*"
 log = "*"
-rustc-serialize = "*"
+rustc-serialize = "0.3.24"
 
