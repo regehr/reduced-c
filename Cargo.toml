@@ -2,19 +2,16 @@
 name = "reduced-c"
 version = "0.1.0"
 authors = ["Peter Marheine <peter@taricorp.net>"]
+edition = '2018'
 
 [profile.release]
 lto = true
 
 [lib]
 
-[dependencies.reduced-c-syntax]
-# In its own subcrate to avoid slow recompiles
-path = "syntax"
-
 [dependencies]
-docopt = "*"
-env_logger = "*"
-log = "*"
-rustc-serialize = "*"
+combine = "1"
+docopt = "1"
+env_logger = "0.8"
+log = "0.4"
 
